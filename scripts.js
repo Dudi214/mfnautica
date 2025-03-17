@@ -223,6 +223,14 @@ function mudarImg11() {
 }
 
 
+function mudarImg12() {
+    clickButton()
+    imgForm.src = 'assents/farol.jpg'
+     order.value = "  Farol"
+     price.value = "R$ 38,000"
+}
+
+
 
 let slideIndex = 0;
 

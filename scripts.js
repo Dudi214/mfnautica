@@ -91,7 +91,7 @@ function formatarCelular(value) {
 function enviarForm() {
 
 
-    const number = "#"
+    const number = "5524993255064"
     const msg = "Olá, aqui abaixo estão as informações do seu agendamento, aguarde e você receberá o retorno aqui sobre seu pedido agendado."
     const name = document.querySelector('#name').value
     const tel = document.querySelector('#tel').value
@@ -113,7 +113,7 @@ function enviarForm() {
 
 function contactHeader() {
 
-    const number = "#"
+    const number = "5524993255064"
     const name = document.querySelector('#nameContact').value
     const tel = document.querySelector('#telContact').value
     const msg = document.querySelector('textarea').value

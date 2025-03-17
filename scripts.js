@@ -219,7 +219,7 @@ function mudarImg11() {
     clickButton()
     imgForm.src = 'assents/Derrapante.png'
      order.value = "  Derrapante "
-     price.value = "R$ 1,080"
+     price.value = "R$ 890,00"
 }
 
 

@@ -21,7 +21,7 @@ header {
 }
 
 body {
-    background-color: hsl(233, 81.80%, 89.20%);
+    background-color: hsl(240, 33.30%, 97.10%);
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -225,26 +225,38 @@ p {
     color: white !important;
 }
 
-.link-zap {
-
+ .link-zap {
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;  /* Aumenta o botão */
+    height: 50px; /* Aumenta o botão */
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+    font-size: 30px; /* Aumenta o ícone */
+    text-align: center;
+  }
 
-#zap-img {
-    width: 50px;
+  .whatsapp {
+    background-color: #25D366;
+  }
 
-}
+  .instagram {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+    right: 100px; /* Ajusta a posição do Instagram para não sobrepor o WhatsApp */
+  }
 
-#zap-img:hover {
-    transition: 0.4s ease-in-out;
-    width: 53px;
-
-}
+  .link-zap:hover {
+    
+  }
 
 
-#fale-conosco {
+  #fale-conosco {
 
     z-index: 1;
     top: 20%;
@@ -554,3 +566,19 @@ textarea {
     }
 
 }
+
+ @media screen and (max-width: 768px) {
+    .whatsapp {
+      right: 10px; /* Move mais para a esquerda no mobile */
+      bottom: 50px;
+      width: 40px;  /* Aumenta o botão */
+      height: 40px; /* Aumenta o botão */ /* Sobe um pouco para não cobrir botões */
+    }
+
+    .instagram {
+      right: 80px; /* Ajusta o Instagram no mobile */
+      bottom: 50px;
+      width: 40px;  /* Aumenta o botão */
+     height: 40px; /* Aumenta o botão */ 
+    }
+  }

@@ -132,6 +132,14 @@ function contactHeader() {
 
 const imgForm = document.querySelector('#orderForm')
 
+
+function mudarImg0() {
+    clickButton()
+    imgForm.src = 'assents/caiaque1lugar.jpg'
+    order.value = "Caiaque"
+    price.value = "R$ Valor: R$ 2,600"
+}
+
 function mudarImg1() {
     clickButton()
     imgForm.src = 'assents/caique2.jpg'
@@ -225,10 +233,36 @@ function mudarImg11() {
 
 function mudarImg12() {
     clickButton()
+    imgForm.src = 'assents/caixaflutuante.jpg'
+     order.value = " Caixa Flutuante"
+     price.value = "R$ 3,200"
+}
+
+
+function mudarImg13() {
+    clickButton()
+    imgForm.src = 'assents/comando.jpg'
+     order.value = " Comando de embarcações"
+     price.value = "R$ 1,800"
+}
+
+function mudarImg14() {
+    clickButton()
+    imgForm.src = 'assents/catamara.jpg'
+     order.value = " Catamarã"
+     price.value = "R$ Valor: R$ 76,500"
+}
+
+
+function mudarImg15() {
+    clickButton()
     imgForm.src = 'assents/farol.jpg'
      order.value = "  Farol"
      price.value = "R$ 38,000"
 }
+
+
+
 
 
 
